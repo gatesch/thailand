@@ -1,0 +1,26 @@
+---
+kind: LimitRange
+apiVersion: v1
+metadata:
+  name: limits
+  namespace: magnecomp
+spec:
+  limits:
+  - type: Pod
+    max:
+      cpu: 200m
+      memory: 1200Mi
+    min:
+      cpu: 100m
+      memory: 1000Mi
+  - type: Container
+    max:
+      cpu: 200m
+      memory: 1200Mi
+    min:
+      cpu: 100m
+      memory: 1000Mi
+    default:
+      cpu: 100m
+      memory: 1000Mi
+
