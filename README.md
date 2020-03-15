@@ -1,4 +1,3 @@
-# php-safe
 
 This application is safe to run in any environment.
 
