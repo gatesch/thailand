@@ -1,0 +1,14 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: magnecomp-ingress
+  namespace: magnecomp
+spec:
+  rules:
+  - host: magnecomp.example.local
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: magnecomp
+          servicePort: 80

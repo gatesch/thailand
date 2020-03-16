@@ -1,5 +1,3 @@
+This demo will showcase the horizontal pod autoscaling capabilities available in Kubernetes (and OpenShift by extension) with some NGINX servers that will grow uppon hitting the 50% CPU threshold.
 
-This application is safe to run in any environment.
-
-it will be scaned by fortify SCA but no problems will be found
-
+##
