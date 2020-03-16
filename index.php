@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>HPE CD Pipeline Demo</title>
+    <title>Magnecomp CD Pipeline Demo</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">HPE PHP Demo</a>
+          <a class="navbar-brand" href="#">Magnecomp PHP Demo</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -53,7 +53,7 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Hello <?php echo 'HPE!'?></h1>
+        <h1>Hello <?php echo 'Magnecomp!'?></h1>
         <p class="lead">ALEX Example Source To Image PHP</p>
       </div>
 
